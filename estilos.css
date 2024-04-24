@@ -1,0 +1,204 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* Le quitamos los espacios internos y externos que tienen por defecto
+        todos los elementos dentro del body */
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    background-color: blue;
+    padding: 15px;
+    margin: 0;
+    border-radius: none;
+    box-shadow: 10px 10px 10px gray;
+    width: 100%;
+  }
+
+  ul {
+    /* Le quitamos los espacios internos y externos que tienen por defecto
+        todos los elementos dentro de la lista desordenada */
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    border-right: 1px solid;
+    border-radius: 4px;
+    color: white;
+    background-color:black
+    
+     
+        background-color: white;
+        border-radius: 4px;
+    }
+}
+
+    /* border: 1px solid black; */
+  
+
+
+  .titulo{
+    color:white;
+    padding: 10px;
+    background-color:rebeccapurple ;
+  }
+
+  a:hover {
+    color: aqua;
+  }
+
+  h1 {
+    color: blue;
+    text-align: center;
+
+  }
+
+  h2 {
+    margin-left: 30px;
+  }
+
+  .cuerpo {
+    text-align: center;
+    color:black;
+    
+  }
+
+  h2:hover {
+    color: orange;
+    transition-duration: 1s;
+
+  }
+
+  .p-important {
+    color: black;
+    margin-left: 35px;
+  }
+
+  p {
+    margin-left: 15px;
+    color: white;
+  }
+
+
+  .div-p{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 250px;
+    width: 20px;
+    border-radius: 50px;
+     width: 730px;
+    
+  
+    
+  
+}
+
+.card{
+  color: black;
+  text-align: center;
+  position: static;
+  background-color: white;
+  height: 160px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border-top: 4px solid rebeccapurple;
+  border-right: 2px solid rebeccapurple;
+  border-bottom: 1px solid rebeccapurple;
+  border-left: 3px solid rebeccapurple;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+
+.div-negro {
+    color: white;     
+    padding: 5%;
+    position: absolute;
+    text-align: center;
+    margin-top: 70%;
+    background-color: rgb(36, 36, 36);
+    width: 100%; 
+    margin: 0 aut
+  
+}
+
+h1:hover {
+    
+    transition-duration: 1s;
+    width:100%;
+    color: orange;
+    transition-duration: 1s;
+    
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+    
+  body {
+      background-color: white;
+  }
+
+
+  h1 {
+    
+    
+        color: orange;
+        transition-duration: 1s;
+        position: relative;
+    
+  }
+
+  div {
+    display: block;
+  }
+  
+  
+  .card {
+    
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+
+
+  nav {
+      border: solid rgb(0, 255, 64);
+      border-radius: none;
+      position: relative;
+      background-color: rebeccapurple;
+      width: 100%;
+      height: 150px;
+    
+
+      padding: 0;
+  }
+
+  li {
+      display: block;
+      border: none;
+      padding: 0;
+      padding: 0;
+
+  }
+  a:hover {
+    color: rebeccapurple;
+    background-color: white;
+    border-radius: 4px;
+}
+    
+  }
+}
